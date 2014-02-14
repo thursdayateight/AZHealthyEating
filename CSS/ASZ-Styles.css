@@ -1,0 +1,339 @@
+/*RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /*MY STYLES*/
+ 
+/* body*/
+
+body {
+	background-color: #d6e8a0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+	line-height: 26px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.container {
+	width: 960px;
+	padding: 0 100px;
+	color: #636361;
+	font-size: 18px;
+	margin: auto;
+}
+
+nav {
+	height: 170px;
+	position: fixed;
+	z-index: 1;
+}
+
+footer {
+	height: 50px;
+	/*position: fixed;*/
+	/*z-index: 1;*/
+}
+
+ nav,
+ footer {
+ 	background-color: #f9ffe7;
+ 	width: 100%;
+ }
+
+ nav a, 
+ footer a {
+ 	text-decoration: none;
+	color: #636361;
+ }
+
+ .clear {
+ 	clear: both;
+ }
+
+/*.contact_note,
+.logo_placeholder,
+.nav_pages {
+	float: left;
+}*/
+
+.contact_note {
+	/*text-align: left;
+	font-size: 16px;
+	padding-top: 13px;
+	padding-right: 150px;*/
+}
+
+.logo_placeholder {
+	height: 116px;
+	width: 463px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*.logo_placeholder img {
+	margin-top: -160px;
+	width: 600px;
+	/*position: relative;
+	z-index: 1;
+	clear: both;
+}*/
+
+.nav_pages {
+	font-size: 16px;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	z-index: 1;
+}
+
+.nav_pages_link {
+	margin: 0 10px 10px 10px;
+	text-transform: uppercase;
+}
+
+.email,
+.phone{ 
+	float: left;
+	padding-right: 2px;
+}
+
+.facebook_small,
+.twitter_small,
+.pinterest_small {
+	float: left;
+	margin: 15px 6px 0 6px;
+}
+
+.facebook_small {
+	margin-left: 0px;
+}
+	
+.copyright {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 14px;
+}
+
+.background2 {
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+header {
+	padding: 50px 0 30px 0;
+}
+
+.biz_name_left,
+.biz_name_right {
+	float: left;
+	text-transform: uppercase;
+	line-height: 42px;
+	font-size: 32px;
+}
+
+.biz_name_left {
+	color: #405494;
+	margin-right: 184px;
+	clear: both;
+}
+
+
+
+.biz_name_right {
+	color: #405494;
+	text-align: right;
+}
+
+.headline {
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 92px;
+	border-top: 2px solid #636361;
+	font-style: italic;
+	line-height: 98px;
+	text-align: center;
+}
+
+.punchline {
+	font-size: 50px;
+	line-height: 65px;
+	border-bottom: 2px solid #636361;
+	margin-top: -16px;
+}
+
+.quote {
+	color: #405494;
+	padding-bottom: 30px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 26px;
+}
+
+span {
+	font-style: normal;
+}
+
+p {
+	padding: 0 30px 30px 30px;
+}
+
+.boxes {
+	padding-left: 75px;
+	padding-bottom: 20px;
+}
+
+.box {
+	height: 250px;
+	width: 250px;
+	background-color: #f9ffe7;
+	border: 2px solid #b3c779;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.box_contact, 
+.box_services,
+.box_more {
+	float: left;
+	margin: 0 10px;
+}
+
+.box_contact a {
+	text-decoration: none;
+	color: #636361;
+}
+
+.box_header {
+	padding: 20px 0;
+	font-style: bold;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.box_details li {
+	line-height: 30px;
+}
+
+.facebook,
+.twitter,
+.pinterest {
+	float: left;
+	margin: 15px 6px 0 6px;
+}
+
+.facebook {
+	padding-left: 45px;
+}
+
+.scroll_note {
+	padding: 30px 0;
+	text-align: center;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-style: italic;
+}
+
+.about {
+	width: 960px;
+	border: 8px solid #d6e8a0;
+	padding: 30px 30px 0 30px;
+}
+
+.about p {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.about2 {
+	width: 960px;
+	border: 8px solid #ffffff;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+}
+
+.about_header {
+	font-size: 28px;
+	border-bottom: 2px solid #636361;
+	margin-bottom: 20px;
+	line-height: 38px;
+}
+
+.carrot {
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 40px solid #d6e8a0;
+	height: 0px;
+	width: 0px;
+	margin: 30px auto;
+}
+
+.carrot2 {
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 40px solid #ffffff;
+	height: 0px;
+	width: 0px;
+	margin: auto;
+}
+
+.about_image {
+	padding: 120px 0 0 0;
+	width: 100%;
+}
+
+.about_image img {
+	width: 100%;
+	height: 700px;
+	margin-bottom: 30px;
+}
+
+
+
